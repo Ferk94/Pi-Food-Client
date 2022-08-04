@@ -1,0 +1,33 @@
+
+.aboutContainer a{
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.links a{
+    margin: 10px;
+}
+.pern img{
+margin: 10px;
+}
+.aboutText{
+
+    width: 400px;
+}
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutPhoto{
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+@media (max-width: 1000px){
+    .aboutText{
+        width: 340px;
+    }
+}

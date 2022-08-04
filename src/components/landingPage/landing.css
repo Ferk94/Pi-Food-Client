@@ -1,0 +1,72 @@
+ /* .text {
+    color: rgb(19, 34, 149);
+     justify-content:space-between; 
+     text-align:; 
+     font-size:50px; 
+    
+    
+ }   */
+
+/* .landing {
+    font-size: 200%;
+    opacity: 0.8;
+    background-image:url(https://elviajerofeliz.com/wp-content/uploads/2020/01/Comida-t%C3%ADpica-de-Bangladesh-Platos-Imprescindibles.jpg);
+    background-color: transparent;
+    padding: 300px;
+    
+    
+   
+} */
+
+/* .title {
+    display: flex;
+    margin-bottom:  100px;
+    align-items: center;
+    justify-items: flex-start;
+    
+    color:rgb(121, 26, 26);
+    font-size: 130px;
+    
+} */
+
+/* .button {
+    height: 60px;
+    width: 130px;
+    background-color: transparent;
+    font-size: 30px;
+    color: rgb(121, 26, 26);
+
+}
+
+.button:hover {
+    background-color: orange;
+} */
+
+.landing{
+    height: 100vh;
+    background-color: #DCE3E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.landingTitle{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+}
+.landingButton{
+    margin-top: 10px;
+    color: #2D3642;
+    background-color: transparent !important;
+    border: 2px solid #2D3642;
+    width: 200px;
+    min-height: 35px;
+    margin-top: 100px;
+    border-radius: 20px !important;
+    font-family: 'Oxygen', sans-serif;
+}
+.landingButton:hover{
+    background-color: #2D3642 !important;
+    color: #DCE3E8;
+    border: 2px solid #1F0318;
+}

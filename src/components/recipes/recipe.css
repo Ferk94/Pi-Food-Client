@@ -1,0 +1,33 @@
+.cardContainer{
+
+display: flex;
+flex-direction: column;
+}
+.cardTitle{
+    font-family: 'Pacifico', cursive;
+}
+.cardDiets{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 70px;
+}
+.cardDiets div{
+    margin: 0px;
+}
+.recipeCard{
+    align-items: flex-start;
+    flex-direction: row;
+}
+.imgContainer img{
+    border-radius: 5px;
+    border:1px solid grey
+}
+@media (max-width: 1000px){
+    .cardDiets{
+        align-items: center;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+}

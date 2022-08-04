@@ -1,0 +1,47 @@
+.paginacion {
+    margin: 15px 0;
+  }
+  .paginacion p{
+    color:rgb(67, 67, 67)
+  }
+  
+  .paginacion ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .paginacion ul li {
+    display: inline-block;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+  }
+  
+  .paginacion ul li a {
+    display: block;
+    padding: 4px 10px;
+    color: rgb(121, 26, 26);
+    background: transparent;
+    text-decoration: none;
+    border-radius: 8px;
+    min-width: 10px;
+    border: 1px solid white;
+  }
+  .paginacion button{
+    border:1px solid rgb(67, 67, 67);
+    color:rgb(67, 67, 67);
+    background-color: #e8eff5;
+    height: 25px;
+    border-radius: 5px;
+  }
+  .paginacion button:hover{
+    background-color:rgb(67, 67, 67);
+    color: #DCE3E8;
+  }
+.cargando{
+  color:rgb(67, 67, 67);
+}
+@media (max-width: 1000px){
+  .paginacion button{
+    margin: 1px;
+  }
+}

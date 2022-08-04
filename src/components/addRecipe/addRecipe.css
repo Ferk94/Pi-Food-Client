@@ -1,0 +1,102 @@
+.createContainer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(67, 67, 67);
+}
+.createTitle{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.createChecks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.createCheck{
+    margin: 10px;
+}
+.inputsNames textarea{
+    resize: none;
+}
+.createTitle{
+    font-size: 20px;
+}
+.numericInputs{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.numeric{
+    margin: 10px;
+}
+.numeric input{
+border-radius: 5px;
+border:1px solid rgb(67, 67, 67); 
+height: 20px;
+}
+.createButton{
+    border:1px solid rgb(67, 67, 67);
+    color:rgb(67, 67, 67);
+    background-color: #e8eff5;
+    height: 30px;
+    width: 120px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.createButton:hover{
+    background-color:rgb(67, 67, 67);
+    color: #DCE3E8;
+}
+.inputsNames input{
+    border-radius: 5px;
+    border:1px solid rgb(67, 67, 67);
+    height: 20px;
+    width: 200px;
+    padding-left: 5px;
+    margin: 10px;
+}
+.inputsNames textarea{
+    border-radius: 5px;
+    border:1px solid rgb(67, 67, 67);
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.bigTexts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nameImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media (max-width: 1000px){
+    .createContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .nameImg{
+        display: flex;
+        flex-direction: column;
+    }
+    .bigTexts{
+        display: flex;
+        flex-direction: column; 
+    }
+    .inputsNames textarea{
+        width: 300px;
+    }
+    .createChecks{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
